@@ -1,0 +1,120 @@
+<!-- DOCTYPE le dice al navegador que este archivo es tipo html -->
+<!DOCTYPE html>
+
+<html lang="es">
+    <!--Info para el navegador y extras-->
+    <head>
+    <!--Titulo de la página-->
+    <title> :) </title>
+    <!--Conectar con css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Agregar fuente de Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    </head>
+
+    <!--Dentro de body vamos a poner lo que el usuario ve-->
+    <body>
+        <!--<h1>Hola Mundo!</h1>
+        <h2>Hola Mundo!!!</h2>
+        <h3>Hola Mundo!!</h3>
+        <h4>Hola Mundo!!</h4>
+        <h5>Hola Mundo!!</h5>
+        <h6>Hola Mundo!!</h6>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam ducimus, rem ratione nobis, cum debitis voluptatum officia praesentium sapiente animi accusantium, labore pariatur amet ipsum aut molestias aliquid voluptas nostrum?</p>-->
+
+        <!--Usamos class para poder cambiar el color de solo una parte de texto-->
+
+        <main>
+            <h1 class="titulo-web"> Web de capibaras </h1>
+            <h2>Imágenes de capibaras</h2>
+            <!--src es la fuente de la imagen-->
+            <img src="https://cdn.britannica.com/79/191679-050-C7114D2B/Adult-capybara.jpg">
+            <br> <!--Separación entre imagenes-->
+            <img class="grafica" src="https://dam.ngenespanol.com/wp-content/uploads/2021/02/capibara-amigable.jpg"> <!--Ponemos class para cambiarlo en css-->
+
+            <!--Listas-->
+            <h3>Listas de capibaras</h3>
+            <div> <!--Elementos div (división de otros elementos)-->
+                <p>Cosas que los capibaras <strong>aman</strong></p> <!--strong elemento para letra en negritas-->
+                <p><em> Lista hecha por la Eli 💙 </p><em> <!--em elemento para letras cursivas-->
+                <!--Lista no ordenada (ul) = unordered list-->
+                <ul>
+                    <li>Otras especies de animales</li> <!--Item's de la lista-->
+                    <li>El agua</li>
+                    <li>Comer</li>
+                </ul>
+
+                <img src="data:image/jpeg;base64,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" alt="capi con otros animales">
+                <img class="capiagua" src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2022/01/31/1F1F6678-7110-4E1F-AB58-7622A2E58006/69.jpg?crop=1:1,smart&width=1200&height=1200&optimize=low&format=webply" alt="capi en el agua">
+                <img class="capicomiendo" src="https://img.freepik.com/fotos-premium/capibara-comiendo_33862-314.jpg" alt="Capi comiendo">
+
+                <p>Cosas que los capibaras odian</p>
+                <!--Lista ordenada (ol) = ordered list-->
+                <ol>
+                    <li>Clima frío</li>
+                    <li>Estar solos</li>
+                    <li>Ser cargados</li>
+                    <!-- li*3 para no obtener manualmente los elementos-->
+                </ol>
+            </div>
+
+            <!--Enlaces internos (Navegación)-->
+            <a href="#parrafo-1">Párrafo 1</a>
+            <a href="#parrafo-2">Párrafo 2</a>
+            <a href="#parrafo-3">Párrafo 3</a>
+
+            <h3 id="parrafo-1">Párrafo 1</h3>
+            <p>Capybaras are tropical animals and don’t like the cold. They need a warm place to live, sleep, and eat. Their fur is not thick enough to keep them warm in winter. If you have a capybara that lives in your home, make sure you provide it with plenty of heat during the winter months (and really any time it may be too cold outside).</p>
+            
+            <h3 id="parrafo-2">Párrafo 2</h3>
+            <p>They love to be around people and other animals, but they can get lonely if they are left alone for too long. Capybaras are mammals with complex social behaviors and needs that include resting in large groups called herds (or flocks), socializing with other capybaras at their leisure, playing together in small groups called gangs or “bachelor herds” when there aren’t enough females around for them to mate with—and even forming coalitions against other male capybaras!</p> 
+
+            <h3 id="parrafo-3">Párrafo 3</h3>
+            <p>As a rule, capybaras don’t like being picked up. They are not cats or dogs that like to be picked up—they can bite if they feel threatened. Capybaras are very strong and could hurt you if you try to pick them up.</p> 
+
+
+            <!--Enlaces externos (Navegación)-->
+
+            <p>En este <a class="l-nuclear" href="https://capybaratips.com/what-do-capybaras-hate-or-dislike/">link</a> puedes ver más cosas que los capibaras odian.</p>
+
+            <a href="https://animalesde.net/capibara/"> <img class="capy" src="https://animalesde.net/wp-content/uploads/2016/10/capybara-Hydrochoerus-hydrochaeris.jpg"></a> <!--La imagen nos lleva al link de la página web-->
+
+            <!-- Formularios -->
+            <p> ¿Tu capibara es cachorro o adulto? </p>
+              <!-- Opción cachorro-->
+              <label for="cachorro">
+                 <input id="cachorro" type="radio" value="cachorro" name="edad" > Cachorro 
+              </label>
+              <!-- Opción adulto-->
+              <label for="adulto">
+                 <input id="adulto" type="radio" value="adulto" name="edad" > Adulto 
+              </label>
+
+            <!-- Formulario con checkbox-->
+            <p> ¿Qué tipo de capibara es el tuyo? </p>
+              <label for="cariñoso">
+                 <input id="cariñoso" type="checkbox" value="cariñoso" name="personalidad"> Cariñoso 
+              </label>
+                
+              <label for="enojon">
+                 <input id="enojon" type="checkbox" value="enojon" name="personalidad"> Enojón  
+              </label>
+
+              <label for="perezoso">
+                 <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso 
+              </label>
+
+              <label for="jugueton">
+                 <input id="jugueton" type="checkbox" value="jugueton" name="personalidad"> Jugueton   
+              </label>
+
+        </main>
+        <footer>
+            <p> Página creada por Elizabeth en <a class="l-tec" href="https://tecnolochicas.mx/"> Tecnolochicas Pro </a> </p>
+        </footer>
+
+    </body>
+</html>
