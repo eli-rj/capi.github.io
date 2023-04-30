@@ -1,0 +1,63 @@
+/* Aquí comienza el estilo de la página */
+body{
+    /*background-color: rgba(227, 163, 43, 0.54);*/
+    background-image: url("https://fsb.zobj.net/crop.php?r=Y96JqYzAXeu_61aIbRcu5vxdT66M7X5nMSw7_i7NKFTtwQXy6Sp3hw2NgiGqa4VEVlDqxj3In-rQpnxxtUwrijN8nGfxmdOw5siCnvKCrg2DiSdeUbLYPj0ycg-UBRc5fUTckthMwRO7AzYz3bEUR6j0C-eAXZZsCDFXVUmmdMto3y-5CxFmhwYakAS0Nti_pnA9Eagu7yGLI7IE");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: rgb(210, 91, 91);
+    font-family: 'Viga', sans-serif; /*Unificamos la fuente de la página*/
+    background-size: 1000px;
+}
+
+p{
+    color: rgb(68, 50, 205);
+}
+
+h1{
+    color: black;
+}
+
+/*Para agregar una clase, ponemos (.) antes del nombre*/
+
+.titulo-web{
+    color: rgb(49, 49, 237);
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.grafica{
+    width: 500px;
+}
+
+.capy{
+    width: 600px;
+}
+
+.capiagua{
+    width: 305px;
+}
+
+.capicomiendo{
+    width: 405px; 
+}
+
+.l-tec{
+    color: #46aa53;
+}
+
+.l-nuclear{
+    color: #46aa53;
+}
+
+img{
+    width: 300px; /*ancho de la imagen*/
+    /* height: 300px; largo de la imagen*/
+}
+
+a {
+    color: #6658c28d;
+}
+
+
+
